@@ -15,6 +15,40 @@
         </button>
         <div class="results"></div>
         <div class="error"></div>
+        <form id="addUser">
+            <div>
+                <label for="userName">
+                    Username:
+                </label>
+                <input id="userName" name="userName" type="text" />
+            </div>
+            <div>
+                <label for="userPassword">
+                    Password:
+                </label>
+                <input id="userPassword" name="userPassword" type="password"/>
+            </div>
+            <button type="submit">
+                Add user
+            </button>
+        </form>
+        <form id="updateUserPassword">
+            <div>
+                <label for="username">
+                    Username:
+                </label>
+                <input id="username" name="username" type="text" />
+            </div>
+            <div>
+                <label for="password">
+                    Password:
+                </label>
+                <input id="password" name="password" type="password" />
+            </div>
+            <button type="submit">
+                Update user password
+            </button>
+        </form>
         <script src="./js/index.js"></script>
     </body>
 </html>
